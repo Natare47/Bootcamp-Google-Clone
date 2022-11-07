@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #202124;
+}
+a:hover{
+    border-bottom: 1px solid #fff;
+}
+header{
+    display: flex;
+    justify-content:right;
+    margin-right: 10px;
+}
+
+header .header_items{
+    display: flex;
+    flex-direction: row;
+        
+}
+.header_items a, .dot a{
+    margin-right: 15px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+.dot{
+    margin-top: 15px;
+}
+.dot img{
+    width: 25px;
+    height: 25px;
+}
+header .profile img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    margin-top: 7px;
+}
+
+main{
+    margin-top: 100px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box img{
+    margin-bottom: 20px;
+    width: 300px;
+    height: fit-content;
+}
+.box input{
+    border: none;
+    border-radius: 100px;
+    width: 500px;
+    padding: 10px;
+}
+
+.items_local{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.items_top, .items_bottom{
+    display: flex;
+    flex-direction: row;
+}
+.items_top div, .items_bottom div{
+    margin: 30px;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #9d9d9d;
+    border-radius: 100px;
+}
+@media (max-width: 450px){ 
+    main{
+        margin-top: 80px;
+    }
+    .box img{
+        margin-bottom: 20px;
+        width: 230px;
+        height: fit-content;
+    }
+    .box input{
+        border: none;
+        border-radius: 100px;
+        width: 340px;
+        padding: 10px;
+    }
+    .items_top div, .items_bottom div{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 350px){ 
+    main{
+        margin-top: 80px;
+    }
+    .box img{
+        margin-bottom: 20px;
+        width: 150px;
+        height: fit-content;
+    }
+    .box input{
+        border: none;
+        border-radius: 100px;
+        width: 250px;
+        padding: 10px;
+    }
+    .items_top div, .items_bottom div{
+        width: 20px;
+        height: 20px;
+        margin: 20px;
+    }
+
+    .header_items a, .dot a{
+        margin-right: 15px;
+        color: #fff;
+        font-size: 13px;
+        text-decoration: none;
+    }
+    .dot{
+        margin-top: 15px;
+    }
+    .dot img{
+        width: 20px;
+        height: 20px;
+    }
+    header .profile img{
+        height: 35px;
+        width: 35px;
+        border-radius: 100px;
+        margin-top: 7px;
+    }
+    
+}
